@@ -3,13 +3,16 @@
 #include<math.h>
 
 int main()
-{
-    printf("Logaritmo de qualquer base");
+{int a,b,x;
+   printf("Logaritmo de qualquer base:");
+   scanf("%d",&a);
+
     printf("digite um numero: ");
-    scanf("%d",&a);
-    printf("difite o numero da base: ");
     scanf("%d",&b);
+
+
     x=log10(a)/log10(b);
+    printf("resultado:%d ",x);
     return 0;
 
 }
